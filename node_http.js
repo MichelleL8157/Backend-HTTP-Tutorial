@@ -1,4 +1,5 @@
 const http = require('http');
+//require('http') is a node.js module that allow us to send, transfer, and get data over http
 const server = http.createServer((req,res) => {
     if (req.url === '/') {
         res.write('Hello world ');
